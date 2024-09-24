@@ -51,33 +51,33 @@ footer {
 
 /* SKY */
 .moon {
-    height: 50vh;
+    height: 55vh;
     position: absolute;
-    z-index: 3;
-    right: 20px;
+    z-index: 4;
+    right: -5%;
     top: -10%;
     opacity: 0.6;
-    filter: drop-shadow(0px 0px 25px rgba(243, 242, 226, 0.5));
+    filter: drop-shadow(0px 0px 10px rgba(243, 242, 226, 0.5));
 }
 .stars {
-    background: url(../media/stars.png) repeat;
     background: black url(../media/stars.png) repeat;
+    background-size: 180%;
     position: absolute;
        top: 0;
        bottom: 0;
        left: 0;
        right: 0;
        display: block;
-         z-index: 0;
+        z-index: 0;
 }
 .twinkling-back{
     background: transparent url("../media/twinkling.png") repeat;
-    z-index: 0;
     animation:move-background 17s linear infinite;
+    z-index: 1;
 }
 .twinkling-front{
     background: transparent url("../media/twinkling-transparent.png") repeat;
-    z-index: 2;
+    z-index: 3;
     animation:move-background 100s linear infinite;
 }
 .twinkling-back, .twinkling-front {
@@ -102,7 +102,7 @@ footer {
     right: 0;
     top: 0;
     bottom: 0;
-    z-index: 3;
+    z-index: 5;
     animation: move-background 130s linear infinite;
 }
 
@@ -118,15 +118,9 @@ footer {
         rgba(10, 10, 18, 0.9) 60%,
         rgba(10, 10, 18, 1) 100%
     );
-    z-index: 4;
+    z-index: 6;
     pointer-events: none;
 }
-
-/* Ensure other elements are above the cloud overlay
-#name, #enter-button, .moon {
-    z-index: 5;
-} */
-
 
 @keyframes move-background {
     from {
@@ -173,7 +167,7 @@ footer {
     bottom: 5%;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 5
+    z-index: 6;
 }
 
 .tree {
@@ -205,7 +199,7 @@ footer {
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 15%;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
     color: #fff;
@@ -213,13 +207,14 @@ footer {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     opacity: 0;
     animation: fadeIn 2s ease-out forwards 1s;
-    text-shadow: 0 0 10px rgba(244, 246, 237, 0.4), 0 0 20px rgba(243, 246, 220, 0.3)
+    text-shadow: 0 0 10px rgba(244, 246, 237, 0.6), 0 0 20px rgba(243, 246, 220, 0.4);
+    z-index: 2;
 }
 
 /* Initial button styling */
 #enter-button {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
     padding: 10px 20px;
@@ -231,17 +226,21 @@ footer {
     transition: all 0.4s ease; /* Smooth transition for all properties */
     opacity: 0;
     animation: fadeIn 2s ease-out forwards 1.8s; 
-    z-index: 1; /* Place behind clouds initially */
+    z-index: 2; /* Place behind clouds initially */
 }
 
 #enter-button:hover {
     opacity: 1; /* Increase opacity */
-    z-index: 6; /* Above clouds */
+    z-index: 7; /* Above clouds */
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.3);
 }
 
-
+#name:hover {
+    z-index: 7;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 1px 1px 20px rgb(247, 233, 236)
+}
 
 
 @keyframes fadeIn {
@@ -251,3 +250,16 @@ footer {
 @keyframes fadeOut {
     to { opacity: 0; }
 }
+
+
+/* 
+z-index is:
+stars in the absolute back: 0
+back twinkling: 1
+my name, the button: 2
+The moon, swingset: 4
+front twinkling: 3
+the clouds: 5,
+overlay: 6
+button:hover: 7
+ */
