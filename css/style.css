@@ -51,11 +51,13 @@ footer {
 
 /* SKY */
 .moon {
-    height: 30vh;
+    height: 50vh;
     position: absolute;
     z-index: 3;
     right: 20px;
+    top: -10%;
     opacity: 0.6;
+    filter: drop-shadow(0px 0px 25px rgba(243, 242, 226, 0.5));
 }
 .stars {
     background: url(../media/stars.png) repeat;
@@ -169,7 +171,7 @@ footer {
 
 .swing-container {
     position: absolute;
-    bottom: 20%;
+    bottom: 5%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 5
@@ -202,6 +204,8 @@ footer {
 
 #name {
     position: absolute;
+    width: 100%;
+    text-align: center;
     top: 15%;
     left: 50%;
     transform: translateX(-50%);
@@ -216,11 +220,11 @@ footer {
 /* Initial button styling */
 #enter-button {
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 50%;
     transform: translateX(-50%);
     padding: 10px 20px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     background: transparent;
     border: 2px solid #fff;
     color: #fff;
