@@ -211,6 +211,12 @@ footer {
     background: rgba(255, 255, 255, 0.213);
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.3);
 }
+#enter-button:active {
+    opacity: 1; /* Increase opacity */
+    z-index: 7; /* Above clouds */
+    background: rgba(223, 230, 235, 0.431);
+    box-shadow: 0 0 30px rgba(231, 246, 249, 0.572), 0 0 70px rgba(248, 245, 192, 0.735);
+}
 
 #name:hover {
     z-index: 7;
