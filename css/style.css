@@ -1,0 +1,147 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#landing-page {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(to bottom, #1a1a2e, #16213e);
+    overflow: hidden;
+}
+
+.fog-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.fog {
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    background: url('path-to-your-fog-image.png') repeat-x;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.5;
+    animation: fogAnimation 60s linear infinite;
+}
+
+.fog:nth-child(2) {
+    opacity: 0.3;
+    animation-duration: 120s;
+}
+
+@keyframes fogAnimation {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.swing-container {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tree {
+    width: 100px;
+    height: 200px;
+    background: #2a2a2a;
+    clip-path: polygon(50% 0%, 30% 100%, 70% 100%);
+}
+
+.swing {
+    width: 80px;
+    height: 2px;
+    background: #4a4a4a;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    transform-origin: top center;
+    animation: swingAnimation 4s ease-in-out infinite;
+}
+
+@keyframes swingAnimation {
+    0%, 100% { transform: rotate(5deg); }
+    50% { transform: rotate(-5deg); }
+}
+
+#name {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards 1s;
+}
+
+#enter-button {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards 2s;
+}
+
+#enter-button:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    to { opacity: 0; }
+}
