@@ -45,9 +45,100 @@ footer {
 #landing-page {
     position: relative;
     height: 100vh;
-    background: linear-gradient(to bottom, #1a1a2e, #16213e);
+    background: linear-gradient(to bottom, #050508, #0a0c15);
     overflow: hidden;
 }
+
+/* SKY */
+.moon {
+    height: 30vh;
+    position: absolute;
+    z-index: 3;
+    right: 20px;
+    opacity: 0.6;
+}
+.stars {
+    background: url(../media/stars.png) repeat;
+    background: black url(../media/stars.png) repeat;
+    position: absolute;
+       top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       display: block;
+         z-index: 0;
+}
+.twinkling-back{
+    background: transparent url("../media/twinkling.png") repeat;
+    z-index: 0;
+    animation:move-background 40s linear infinite;
+}
+/* .twinkling-front{
+    background: transparent url("../media/twinkling-transparent.png") repeat;
+    z-index: 6;
+    animation:move-background 80s linear infinite;
+    mix-blend-mode: screen;
+} */
+.twinkling-back, .twinkling-front {
+    pointer-events: none;
+    width:10000px;
+    height: 100%;
+    background-size: 1000px 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+.clouds {
+    pointer-events: none;
+    width: 10000px;
+    height: 100%;
+    background: transparent url("../media/storm-clouds.png") repeat;
+    background-size: 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    animation: move-background 130s linear infinite;
+}
+
+.cloud-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, 
+        rgba(31, 31, 56, 0) 0%,
+        rgba(10, 10, 18, 0.1) 40%,
+        rgba(10, 10, 18, 0.9) 60%,
+        rgba(10, 10, 18, 1) 100%
+    );
+    z-index: 4;
+    pointer-events: none;
+}
+
+/* Ensure other elements are above the cloud overlay
+#name, #enter-button, .moon {
+    z-index: 5;
+} */
+
+
+@keyframes move-background {
+    from {
+          -webkit-transform: translate3d(0px, 0px, 0px);
+      }
+      to { 
+          -webkit-transform: translate3d(1000px, 0px, 0px);
+      }
+  }
+
+
+
+
 
 .fog-container {
     position: absolute;
@@ -81,6 +172,7 @@ footer {
     bottom: 20%;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 5
 }
 
 .tree {
@@ -88,6 +180,7 @@ footer {
     height: 200px;
     background: #2a2a2a;
     clip-path: polygon(50% 0%, 30% 100%, 70% 100%);
+    z-index: 5
 }
 
 .swing {
@@ -99,6 +192,7 @@ footer {
     left: 10px;
     transform-origin: top center;
     animation: swingAnimation 4s ease-in-out infinite;
+    z-index: 5
 }
 
 @keyframes swingAnimation {
@@ -108,7 +202,7 @@ footer {
 
 #name {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 50%;
     transform: translateX(-50%);
     color: #fff;
@@ -116,11 +210,13 @@ footer {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     opacity: 0;
     animation: fadeIn 2s ease-out forwards 1s;
+    text-shadow: 0 0 10px rgba(244, 246, 237, 0.4), 0 0 20px rgba(243, 246, 220, 0.3)
 }
 
+/* Initial button styling */
 #enter-button {
     position: absolute;
-    bottom: 20%;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%);
     padding: 10px 20px;
@@ -129,14 +225,21 @@ footer {
     border: 2px solid #fff;
     color: #fff;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.4s ease; /* Smooth transition for all properties */
     opacity: 0;
-    animation: fadeIn 2s ease-out forwards 2s;
+    animation: fadeIn 2s ease-out forwards 1.8s; 
+    z-index: 1; /* Place behind clouds initially */
 }
 
 #enter-button:hover {
-    background: rgba(255,255,255,0.1);
+    opacity: 1; /* Increase opacity */
+    z-index: 6; /* Above clouds */
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.3);
 }
+
+
+
 
 @keyframes fadeIn {
     to { opacity: 1; }
