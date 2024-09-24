@@ -23,10 +23,11 @@
 
 body {
     font-family: "Micro 5", Arial, sans-serif;
+    font-weight: 500;
     margin: 0;
     padding: 0;
     height: 100vh;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 /******************************************
@@ -174,7 +175,7 @@ footer {
     left: 50%;
     transform: translateX(-50%);
     color: #fff;
-    font-size: 5rem;
+    font-size: 6rem;
     font-weight: 600;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     opacity: 0;
@@ -189,11 +190,11 @@ footer {
 #enter-button {
     font-family: inherit;
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translateX(-50%);
     padding: 10px 20px;
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: 600;
     background: transparent;
     border: 2px solid #fff;
