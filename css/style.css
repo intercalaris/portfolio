@@ -57,7 +57,7 @@ footer {
     right: -5%;
     top: -10%;
     opacity: 0.6;
-    filter: drop-shadow(0px 0px 10px rgba(243, 242, 226, 0.5));
+    filter: drop-shadow(0px 0px 10px rgba(255, 254, 241, 0.5));
 }
 .stars {
     background: black url(../media/stars.png) repeat;
@@ -132,36 +132,6 @@ footer {
   }
 
 
-
-
-
-.fog-container {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-.fog {
-    position: absolute;
-    width: 200%;
-    height: 100%;
-    background: url('path-to-your-fog-image.png') repeat-x;
-    background-size: contain;
-    background-position: center;
-    opacity: 0.5;
-    animation: fogAnimation 60s linear infinite;
-}
-
-.fog:nth-child(2) {
-    opacity: 0.3;
-    animation-duration: 120s;
-}
-
-@keyframes fogAnimation {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
-}
-
 .swing-container {
     position: absolute;
     bottom: 5%;
@@ -206,9 +176,11 @@ footer {
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     opacity: 0;
+    transition: all 0.1s ease;
     animation: fadeIn 2s ease-out forwards 1s;
     text-shadow: 0 0 10px rgba(244, 246, 237, 0.6), 0 0 20px rgba(243, 246, 220, 0.4);
     z-index: 2;
+    
 }
 
 /* Initial button styling */
@@ -223,7 +195,7 @@ footer {
     border: 2px solid #fff;
     color: #fff;
     cursor: pointer;
-    transition: all 0.4s ease; /* Smooth transition for all properties */
+    transition: all 0.2s ease;
     opacity: 0;
     animation: fadeIn 2s ease-out forwards 1.8s; 
     z-index: 2; /* Place behind clouds initially */
