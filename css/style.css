@@ -289,7 +289,7 @@ button:hover: 7
 }
 .content {
     position: relative;
-    height: 100vh;
+    height: 95vh;
     opacity: 0;
     transition: opacity 1s ease-in;
     display: flex;
@@ -309,14 +309,13 @@ button:hover: 7
     color: #ffffffc6;
     text-shadow: 0 0 15px rgba(210, 221, 249, 0.597), 0 0 20px rgba(213, 229, 252, 0.2);
 }
-
 .section-title:hover {
     color: #e6e7f6;
     text-shadow: 0 0 20px rgba(210, 221, 249, 0.9), 0 0 30px rgba(213, 229, 252, 0.7);    
 }
 
 
-
+/* MEDIA QUERIES */
 @media screen and (max-width: 800px) {
     #name {
     top: 41%;
