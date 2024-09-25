@@ -25,7 +25,7 @@ html {
 }
 body {
     font-family: "Micro 5", Arial, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -274,10 +274,18 @@ footer {
     margin-bottom: 20px;
     margin-right: 20px;
     font-size: 3rem;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
-
-
+.contact-options {
+    display: flex;
+    justify-content: center;
+    gap: 4%
+}
+footer .email, footer .phone {
+    font-size: 1.5rem;
+}
 /* MEDIA QUERIES */
 @media screen and (max-width: 800px) {
     #name {
@@ -311,7 +319,11 @@ footer {
     footer {
         text-align: right;
         height: 3rem;
-        margin-bottom: 0;
+        margin-bottom: 6px;
+        
+    }
+    .contact-options {
+        justify-content: end;
     }
 }
 
