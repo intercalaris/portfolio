@@ -180,11 +180,10 @@ body {
     color: #fff;
     font-size: 6rem;
     font-weight: 600;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     opacity: 0;
     transition: all 0.1s ease;
     animation: fadeIn 2s ease-out forwards 0.7s;
-    text-shadow: 0 0 10px rgba(244, 246, 237, 0.6), 0 0 20px rgba(243, 246, 220, 0.4);
+    text-shadow: 0 0 10px rgba(210, 221, 249, 0.6), 0 0 20px rgba(213, 229, 252, 0.4);
     z-index: 2;
     
 }
@@ -224,8 +223,9 @@ body {
 
 #name:hover {
     z-index: 7;
-    color: rgba(255, 255, 255, 0.87);
-    text-shadow: 1px 1px 20px rgb(247, 233, 236)
+    color: rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px 20px rgb(217, 215, 246), 0 0 20px rgba(246, 252, 213, 0.4)
+    
 }
 
 
