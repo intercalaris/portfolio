@@ -78,7 +78,7 @@ footer {
     z-index: 1;
 }
 .twinkling-front{
-    background: transparent url("../media/twinkling-transparent2.png") repeat;
+    background: transparent url("../media/twinkling-transparent.png") repeat;
     z-index: 3;
     animation:move-background 100s linear infinite;
 }
@@ -86,7 +86,7 @@ footer {
     pointer-events: none;
     width:10000px;
     height: 100%;
-    background-size: 1000px 1000px;
+    background-size: 5000px 5000px;
     position: absolute;
     right: 0;
     top: 0;
@@ -140,6 +140,7 @@ footer {
     left: 50%;
     transform: translateX(-50%);
     z-index: 6;
+    visibility: hidden;
 }
 
 .tree {
@@ -250,9 +251,32 @@ button:hover: 7
 
  /* PORTFOLIO */
  #portfolio {
+        height: 100%;
+        color: white;
+        background: black url(../media/nightsky.png) repeat;
+        overflow: hidden;
 
 }
-
+.twinkling-back{
+    background: transparent url("../media/twinkling.png") repeat;
+    animation:move-background 17s linear infinite;
+    z-index: 1;
+}
+.twinkling-front{
+    background: transparent url("../media/twinkling-transparent.png") repeat;
+    z-index: 3;
+    animation:move-background 100s linear infinite;
+}
+.twinkling-back, .twinkling-front {
+    pointer-events: none;
+    width:10000px;
+    height: 100%;
+    background-size: 5000px 5000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
 
 @media screen and (max-width: 800px) {
     #name {
@@ -262,6 +286,8 @@ button:hover: 7
     #enter-button {
     top: 65%;
     z-index: 5;
+    }
+    #enter-button:hover {
     opacity: 1;
     }
     .cloud-overlay {
