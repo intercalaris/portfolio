@@ -281,11 +281,14 @@ body {
 /* content sections */
 /* about */
 #about p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 300;
-    padding: 20px;
     font-family: "Pixelify Sans", "Micro 5", Arial, sans-serif;
+    font-weight: 300;
     text-indent: 2rem;
+}
+.me {
+    margin-top: -10px;
 }
 .me, .me-h2 {
     width: 12rem;
