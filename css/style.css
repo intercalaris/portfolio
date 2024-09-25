@@ -81,10 +81,11 @@ body {
 .parpadeo-front{
     background: transparent url("../media/parpadeo-transparent.png") repeat;
     z-index: 3;
-    animation:move-background 100s linear infinite;
+    animation:move-background 40s linear infinite;
     background-size: 4000px 4000px;
     pointer-events: none;
 }
+
 .parpadeo-back, .parpadeo-front {
     pointer-events: none;
     width:10000px;
