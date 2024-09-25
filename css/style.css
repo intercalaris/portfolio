@@ -323,7 +323,6 @@ body {
     border: 7px solid transparent;
     background-clip: content-box;
   }
-  
   ::-webkit-scrollbar-thumb:hover {
     background-color: #0d2732;
   }
@@ -334,7 +333,6 @@ body {
     justify-content: center;
     gap: 15px;
     overflow-y: auto;
-    overflow-x:auto
 }
 .projects-list a, .projects-list a:hover, .projects-list a:focus, .projects-list a:active {
     text-decoration: none;
@@ -443,7 +441,13 @@ footer .email, footer .phone {
     /* projects */
     .projects-list {
         flex-direction: row;
+        overflow-x: auto;
+        width: 100vh;
+        height: 60%;
+    }
+    .projects-list a {
+        /* height: 10%;
     }
     
-}
+} */
 
