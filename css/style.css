@@ -74,26 +74,28 @@ body {
        display: block;
         z-index: 0;
 }
-.twinkling-back{
-    background: transparent url("../media/twinkling.png") repeat;
-    animation:move-background 17s linear infinite;
+.parpadeo-back{
+    background: transparent url("../media/parpadeo.png") repeat;
+    animation:move-background 80s linear infinite;
     z-index: 1;
+    background-size: 300px 300px;
 }
-.twinkling-front{
-    background: transparent url("../media/twinkling-transparent.png") repeat;
+.parpadeo-front{
+    background: transparent url("../media/parpadeo-transparent.png") repeat;
     z-index: 3;
     animation:move-background 100s linear infinite;
+    background-size: 4000px 4000px;
 }
-.twinkling-back, .twinkling-front {
+.parpadeo-back, .parpadeo-front {
     pointer-events: none;
     width:10000px;
     height: 100%;
-    background-size: 5000px 5000px;
     position: absolute;
     right: 0;
     top: 0;
     bottom: 0;
 }
+
 
 
 .clouds {
@@ -242,10 +244,10 @@ body {
 /* 
 z-index is:
 stars in the absolute back: 0
-back twinkling: 1
+back parpadeo: 1
 my name, the button: 2
 The moon, swingset: 4
-front twinkling: 3
+front parpadeo: 3
 the clouds: 5,
 overlay: 6
 button:hover: 7
@@ -279,6 +281,14 @@ button:hover: 7
     opacity: 0;
     transition: opacity 1s ease-in;
 }
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 800px) {
