@@ -291,7 +291,7 @@ body {
     text-shadow: 0;
 }
 .me {
-    margin-top: -10px;
+    margin-top: -65px;
 }
 .me, .me-h2 {
     width: 12rem;
@@ -302,6 +302,9 @@ body {
 .me-h2 {
     display: none;
     width: 8rem;
+}
+.me-h2-wrapper {
+    padding-top: 60px;
 }
 
 
