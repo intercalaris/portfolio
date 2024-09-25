@@ -378,6 +378,7 @@ footer .email, footer .phone {
         font-size: 2vh;
         position: relative;
         z-index: 1;
+        color: #ffffffd3;
     }
     
 }
