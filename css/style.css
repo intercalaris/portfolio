@@ -78,14 +78,14 @@ body {
 }
 .parpadeo-back{
     background: transparent url("../media/parpadeo.png") repeat;
-    animation:move-background 40s linear infinite;
+    animation:move-background 80s linear infinite;
     z-index: 0;
-    background-size: 400px 400px;
+    background-size: 200px 200px;
     pointer-events: none;
 }
 .parpadeo-back.portfolio {
-    animation:move-background 70s linear infinite;
-    background-size: 500px 200px;
+    animation:move-background 180s linear infinite;
+    background-size: 100px 100px;
     pointer-events: none;
 }
 .parpadeo-front{
