@@ -296,7 +296,7 @@ button:hover: 7
     transition: opacity 1s ease-in;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
 }
 
