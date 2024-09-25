@@ -307,6 +307,6 @@ button:hover: 7
     }
     .clouds {
         background-size: 1150px;
-        animation: move-background 50s linear infinite;
+        animation: move-background 80s linear infinite;
     }
 }
