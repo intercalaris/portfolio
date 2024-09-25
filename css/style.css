@@ -251,9 +251,16 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-grow: 1;
+    flex: 1;
 }
-
+.content-section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+	width: 33.3333%;
+    text-align: center;
+    flex-basis: 0;
+}
 .content-section, footer {
     z-index: 2;
 }
@@ -261,6 +268,7 @@ body {
     z-index: 7;
 }
 .section-title {
+    min-width: 12rem;
     width: 100%;
     color: #ffffffc6;
     text-shadow: 0 0 15px rgba(210, 221, 249, 0.597), 0 0 20px rgba(213, 229, 252, 0.2);
@@ -269,12 +277,34 @@ body {
     color: #e6e7f6;
     text-shadow: 0 0 20px rgba(210, 221, 249, 0.9), 0 0 30px rgba(213, 229, 252, 0.7);    
 }
+
+/* content sections */
+/* about */
+#about p {
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 20px;
+    font-family: "Pixelify Sans", "Micro 5", Arial, sans-serif;
+    text-indent: 2rem;
+}
+.me, .me-h2 {
+    width: 12rem;
+    border-radius: 90%;
+    align-self: center;
+    opacity: 80%;
+}
+.me-h2 {
+    display: none;
+    width: 8rem;
+}
+
+
+
 footer {
     font-size: 3rem;
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* flex-grow: 1; */
 }
 footer h2 {
     line-height: 2rem;
@@ -325,5 +355,20 @@ footer .email, footer .phone {
     .contact-options {
         justify-content: end;
     }
+    .content-section {
+        flex-direction: row;
+        width: 100%;
+        height: 33.333%;
+        text-align: left;
+        
+    }
+    .me-h2 {
+        display: block;
+        margin: -15px auto 0 auto;
+    }
+    .me {
+        display: none;
+    }
+    
 }
 
