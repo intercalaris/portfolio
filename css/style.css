@@ -365,14 +365,19 @@ footer .email, footer .phone {
     .me-h2 {
         display: block;
         margin: -15px auto 0 auto;
+        position: relative;
+        z-index: 0;
     }
     .me {
         display: none;
     }
     #about p {
-        padding: 0 0 0 0;
+        padding: 0;
+        margin-right: -15px;
         font-size: 0.85rem;
-
+        font-size: 2vh;
+        position: relative;
+        z-index: 1;
     }
     
 }
