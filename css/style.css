@@ -85,7 +85,7 @@ body {
 }
 .parpadeo-back.portfolio {
     animation:move-background 180s linear infinite;
-    background-size: 100px 100px;
+    background-size: 50px 50px;
     pointer-events: none;
 }
 .parpadeo-front{
