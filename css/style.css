@@ -212,19 +212,6 @@ body {
 }
 
 
-/* 
-z-index is:
-stars in the absolute back: 0
-back parpadeo: 1
-my name, the button: 2
-The moon, swingset: 4
-front parpadeo: 3
-the clouds: 5,
-overlay: 6
-button:hover: 7
- */
-
-
  /* PORTFOLIO */
 #portfolio {
     position: relative;
@@ -261,7 +248,7 @@ button:hover: 7
     padding: 20px;
 }
 .main-content {
-    height: 80%;
+    height: 90vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -283,7 +270,7 @@ button:hover: 7
     text-shadow: 0 0 20px rgba(210, 221, 249, 0.9), 0 0 30px rgba(213, 229, 252, 0.7);    
 }
 footer {
-    height: 10%;
+    height: 10vh;
     margin-bottom: 20px;
     margin-right: 20px;
     font-size: 3rem;
