@@ -305,4 +305,8 @@ button:hover: 7
     .swing-container {
         visibility: hidden;
     }
+    .clouds {
+        background-size: 1150px;
+        animation: move-background 50s linear infinite;
+    }
 }
