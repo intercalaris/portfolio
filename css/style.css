@@ -346,5 +346,9 @@ button:hover: 7
         background-size: 1150px;
         animation: move-background 80s linear infinite;
     }
+    .content {
+        flex-direction: column;
+    }
+
 }
 
