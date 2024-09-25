@@ -268,7 +268,7 @@ body {
     z-index: 7;
 }
 .section-title {
-    min-width: 12rem;
+    min-width: 13rem;
     width: 100%;
     color: #ffffffc6;
     text-shadow: 0 0 15px rgba(210, 221, 249, 0.597), 0 0 20px rgba(213, 229, 252, 0.2);
@@ -368,6 +368,9 @@ footer .email, footer .phone {
     }
     .me {
         display: none;
+    }
+    #about p {
+        padding: 0 0 0 0;
     }
     
 }
