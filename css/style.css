@@ -224,7 +224,7 @@ body {
 #name:hover {
     z-index: 7;
     color: rgba(255, 255, 255, 0.5);
-    text-shadow: 1px 1px 20px rgba(217, 215, 246, 0.6), 0 0 20px rgba(246, 252, 213, 0.3)
+    text-shadow: 0 0 10px rgba(210, 221, 249, 0.6), 0 0 20px rgba(213, 229, 252, 0.3);
     
 }
 
