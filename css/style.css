@@ -32,16 +32,6 @@ body {
     font-size: 4rem;
 }
 
-/******************************************
-/* LAYOUT
-/*******************************************/
-header {
-
-}
-
-footer {
-
-}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -271,7 +261,7 @@ button:hover: 7
     max-height: 100vh;
     color: white;
     background: black;
-    overflow: hidden;
+    overflow: hidden; 
     opacity: 0;
     transition: opacity 1s ease-in;
 }
@@ -295,15 +285,21 @@ button:hover: 7
     opacity: 0;
     transition: opacity 1s ease-in;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 20px;
 }
+.main-content {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
-.content-section {
+.content-section, footer {
     z-index: 2;
 }
-.content-section:hover {
+.content-section:hover, footer:hover {
     z-index: 7;
 }
 .section-title {
@@ -314,6 +310,12 @@ button:hover: 7
 .section-title:hover {
     color: #e6e7f6;
     text-shadow: 0 0 20px rgba(210, 221, 249, 0.9), 0 0 30px rgba(213, 229, 252, 0.7);    
+}
+footer {
+    height: 10%;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    text-align: center;
 }
 
 
@@ -347,7 +349,7 @@ button:hover: 7
         background-size: 1150px;
         animation: move-background 80s linear infinite;
     }
-    .content {
+    .main-content {
         flex-direction: column;
     }
 }
