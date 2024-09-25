@@ -215,7 +215,7 @@ body {
  /* PORTFOLIO */
 #portfolio {
     position: relative;
-    height: 100vh;
+    height: 100;
     max-height: 100vh;
     color: white;
     background: black;
@@ -238,8 +238,7 @@ body {
 }
 .content {
     position: relative;
-    height: 100vh;
-    max-height: 100vh;
+    min-height: 100vh;
     opacity: 0;
     transition: opacity 1s ease-in;
     display: flex;
@@ -248,10 +247,10 @@ body {
     padding: 20px;
 }
 .main-content {
-    height: 90vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-grow: 1;
 }
 
 .content-section, footer {
@@ -270,13 +269,14 @@ body {
     text-shadow: 0 0 20px rgba(210, 221, 249, 0.9), 0 0 30px rgba(213, 229, 252, 0.7);    
 }
 footer {
-    height: 10vh;
-    margin-bottom: 20px;
-    margin-right: 20px;
     font-size: 3rem;
     display: flex;
     flex-direction: column;
     text-align: center;
+    /* flex-grow: 1; */
+}
+footer h2 {
+    line-height: 2rem;
 }
 .contact-options {
     display: flex;
@@ -323,7 +323,6 @@ footer .email, footer .phone {
     }
     .contact-options {
         justify-content: end;
-        margin-bottom: 6px;
     }
 }
 
