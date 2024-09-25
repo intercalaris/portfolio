@@ -109,7 +109,7 @@ body {
     top: 0;
     bottom: 0;
     z-index: 5;
-    animation: move-background 130s linear infinite;
+    animation: move-background 110s linear infinite;
 }
 
 .cloud-overlay {
