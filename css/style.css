@@ -419,7 +419,6 @@ footer h2 {
         flex-direction: column;
         /* gap: 15px; */
         gap: max(20px, 1dvh);
-
     }
 
     .contact-options {
@@ -460,7 +459,7 @@ footer h2 {
         justify-content: start;
     }
     .projects-list-section {
-        width: 28vw;
+        width: 60vw;
         min-width: 140px;
     }
     .projects-list-section img {
