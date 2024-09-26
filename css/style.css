@@ -239,7 +239,7 @@ body {
 }
 .content {
     position: relative;
-    min-height: 100vh;
+    height: 100vh;
     opacity: 0;
     transition: opacity 1s ease-in;
     display: flex;
@@ -364,7 +364,10 @@ body {
     width: 90%;
     text-indent: 0;
 }
-
+/* SOCIALS */
+/* #socials p {
+    font-size: 2rem;
+} */
 footer {
     font-size: 3rem;
     display: flex;
@@ -417,13 +420,14 @@ footer .email, footer .phone {
     .contact-options {
         justify-content: end;
     }
-
+    .content {
+        /* height: 100vh; */
+    }
     .content-section {
         flex-direction: row;
         width: 100%;
         align-items: start;
         text-align: left;
-
     }
     .me-h2 {
         display: block;
