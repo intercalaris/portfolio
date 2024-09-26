@@ -337,7 +337,7 @@ body {
     overflow-y: auto;
     mask: linear-gradient(180deg,#000 10% 70%,#0000);
 }
-.projects-list a, .projects-list a:hover, .projects-list a:focus, .projects-list a:active {
+.projects-list a, #calendly, .projects-list a:hover, #calendly:hover, .projects-list a:focus, #calendly:focus, .projects-list a:active, #calendly:active {
     text-decoration: none;
     color: inherit;
 }
@@ -377,7 +377,7 @@ footer h2 {
     justify-content: center;
     gap: 4%
 }
-footer .email, footer .phone {
+.email, #calendly {
     font-size: 1.5rem;
     text-decoration: none;
 }
