@@ -420,6 +420,7 @@ footer .email, footer .phone {
         width: 100%;
         align-items: start;
         text-align: left;
+
     }
     .me-h2 {
         display: block;
@@ -459,9 +460,9 @@ footer .email, footer .phone {
     .section-title {
         font-size: 2.5rem;
     }
-    /* #socials-title {
-        margin-top: -15px;
-    } */
+    #socials-title {
+        margin-top: -30px;
+    }
     footer {
         text-align: right;
         height: 4rem;  
