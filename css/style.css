@@ -38,7 +38,7 @@ body {
 /*******************************************/
 body {
     background: black;
-    max-height: 100vh;
+    height: 100vh;
 }
 #landing-page {
     position: relative;
