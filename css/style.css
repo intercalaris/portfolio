@@ -425,6 +425,7 @@ footer .email, footer .phone {
         width: 100%;
         height: auto;
         /* min-height: 0; */
+        flex-shrink: 1;
         align-items: start;
         text-align: left;
 
