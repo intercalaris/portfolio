@@ -442,7 +442,7 @@ footer .email, footer .phone {
     .projects-list {
         flex-direction: row;
         overflow-x: auto;
-        width: 100vh;
+        /* width: 100vh; */
         height: 60%;
     }
     .projects-list a {
