@@ -51,7 +51,7 @@ body {
 }
 .stars {
     background: black url(../media/stars.png) repeat;
-    background-size: 1800px;
+    background-size: 1500px;
     position: absolute;
        top: 0;
        bottom: 0;
