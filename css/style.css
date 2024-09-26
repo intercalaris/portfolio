@@ -454,6 +454,9 @@ footer .email, footer .phone {
     .section-title {
         font-size: 2.5rem;
     }
+    #socials-title {
+        margin-top: -15px;
+    }
     footer {
         text-align: right;
         height: 4rem;  
