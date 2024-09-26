@@ -285,7 +285,7 @@ body {
     font-weight: 300;
     font-family: "Pixelify Sans", "Micro 5", Arial, sans-serif;
     font-weight: 300;
-    text-indent: 1rem;
+    text-indent: 2rem;
 }
 .section-text:hover {
     text-shadow: 0;
@@ -356,7 +356,6 @@ body {
     width: 90%;
     text-indent: 0;
 }
-
 
 footer {
     font-size: 3rem;
@@ -443,14 +442,16 @@ footer .email, footer .phone {
         flex-direction: row;
         align-items: center;
         overflow-x: auto;
-        width: 90vw;
+        width: 95vw;
         height: 70%;
-        mask: linear-gradient(90deg,#0000,#000 10% 90%,#0000)
-
+        mask: linear-gradient(90deg,#000 10% 80%,#0000);
+        gap: 15px;
+        justify-content: start;
     }
-        /* .projects-list a:last-child:before {
-        content:"";
-        width: 202px;
-    }    */
-
+    .projects-list-section {
+        width: 28vw;
+    }
+    .projects-list-section img {
+        width: 100%;
+    }
 }
