@@ -220,7 +220,7 @@ body {
     max-height: 100vh;
     color: white;
     background: black;
-    overflow: hidden; 
+    /* overflow: hidden;  */
     opacity: 0;
     transition: opacity 1s ease-in;
 }
@@ -417,15 +417,10 @@ footer .email, footer .phone {
     .contact-options {
         justify-content: end;
     }
-    /* .content {
-      min-height: 100vh;
-    } */
+
     .content-section {
         flex-direction: row;
         width: 100%;
-        height: auto;
-        /* min-height: 0; */
-        flex-shrink: 1;
         align-items: start;
         text-align: left;
 
