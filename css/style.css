@@ -452,6 +452,7 @@ footer .email, footer .phone {
     }
     .projects-list-section {
         width: 28vw;
+        min-width: 140px;
     }
     .projects-list-section img {
         width: 100%;
