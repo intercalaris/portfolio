@@ -21,7 +21,7 @@
 /* BASE STYLES
 /*******************************************/
 html {
-    height: 100%;
+    height: 100vh;
 }
 body {
     font-family: "Micro 5", Arial, sans-serif;
@@ -405,11 +405,7 @@ footer .email, footer .phone {
     .main-content {
         flex-direction: column;
     }
-    footer {
-        text-align: right;
-        height: 3rem;
-        
-    }
+
     .contact-options {
         justify-content: end;
     }
@@ -453,5 +449,12 @@ footer .email, footer .phone {
     }
     .projects-list-section img {
         width: 100%;
+    }
+    .section-title {
+        font-size: 2.5rem;
+    }
+    footer {
+        text-align: right;
+        height: 4rem;  
     }
 }
