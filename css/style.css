@@ -418,7 +418,7 @@ footer h2 {
     .main-content {
         flex-direction: column;
         /* gap: 15px; */
-        gap: 1dvh;
+        gap: max(20px, 1dvh);
 
     }
 
