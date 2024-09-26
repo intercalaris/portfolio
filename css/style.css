@@ -21,24 +21,14 @@
 /* BASE STYLES
 /*******************************************/
 html {
-    height: 100vh;
+    height: 100%;
 }
 body {
     font-family: "Micro 5", Arial, sans-serif;
     font-weight: 600;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+    min-height: 100vh;
     font-size: 4rem;
-}
-
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-body {
     background: black;
-    height: 100vh;
 }
 #landing-page {
     position: relative;
