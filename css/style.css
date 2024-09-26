@@ -220,7 +220,7 @@ body {
     max-height: 100vh;
     color: white;
     background: black;
-    /* overflow: hidden;  */
+    overflow-x: hidden;
     opacity: 0;
     transition: opacity 1s ease-in;
 }
