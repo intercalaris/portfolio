@@ -390,7 +390,7 @@ footer .email, footer .phone {
     -webkit-text-size-adjust: none;
     -ms-text-size-adjust: none;
     -moz-text-size-adjust: none;
-    font-size: min(6rem, 6rem);
+    font-size: min(6rem, 23vw);
     
     }
 
