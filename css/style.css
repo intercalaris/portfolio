@@ -461,7 +461,7 @@ footer .email, footer .phone {
         font-size: 2.5rem;
     }
     #socials-title {
-        margin-top: -10px;
+        /* margin-top: -10px; */
     }
     footer {
         text-align: right;
