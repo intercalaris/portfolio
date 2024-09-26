@@ -251,7 +251,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* flex: 1; */
+    flex: 0 1 auto;
 }
 .content-section {
     display: flex;
