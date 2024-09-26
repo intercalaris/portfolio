@@ -443,12 +443,14 @@ footer .email, footer .phone {
         flex-direction: row;
         align-items: center;
         overflow-x: auto;
-        /* width: 100vh; */
+        width: 90vw;
         height: 70%;
-    }
-    /* .projects-list a {
-        height: 10%;
-    }
-     */
-}
+        mask: linear-gradient(90deg,#0000,#000 10% 90%,#0000)
 
+    }
+        /* .projects-list a:last-child:before {
+        content:"";
+        width: 202px;
+    }    */
+
+}
