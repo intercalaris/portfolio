@@ -384,10 +384,12 @@ footer .email, footer .phone {
     #name {
     top: 41%;
     line-height: 3.5rem;
+    cursor: pointer;
     }
     #enter-button {
     top: 65%;
     z-index: 5;
+    cursor: pointer;
     }
     #enter-button:hover {
     opacity: 1;
