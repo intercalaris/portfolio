@@ -441,6 +441,7 @@ footer .email, footer .phone {
     /* projects */
     .projects-list {
         flex-direction: row;
+        align-items: center;
         overflow-x: auto;
         /* width: 100vh; */
         height: 70%;
