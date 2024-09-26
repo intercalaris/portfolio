@@ -383,13 +383,12 @@ footer .email, footer .phone {
 @media screen and (max-width: 800px) {
     #name {
     top: 41%;
+    font-size: 100px;
     line-height: 3.5rem;
-    cursor: pointer;
     }
     #enter-button {
-    top: 65%;
+    top: 60%;
     z-index: 5;
-    cursor: pointer;
     }
     #enter-button:hover {
     opacity: 1;
@@ -410,8 +409,9 @@ footer .email, footer .phone {
     }
     .main-content {
         flex-direction: column;
-        gap: 15px;
-        gap: 4dvh;
+        /* gap: 15px; */
+        gap: 1dvh;
+
     }
 
     .contact-options {
