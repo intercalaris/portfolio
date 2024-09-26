@@ -26,7 +26,7 @@ html {
 body {
     font-family: "Micro 5", Arial, sans-serif;
     font-weight: 600;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     font-size: 4rem;
     background: black;
 }
@@ -208,7 +208,7 @@ body {
 #portfolio {
     position: relative;
     height: 100;
-    max-height: 100vh;
+    /* max-height: 100vh; */
     color: white;
     background: black;
     overflow-x: hidden;
@@ -230,7 +230,7 @@ body {
 }
 .content {
     position: relative;
-    max-height: 100vh;
+    /* min-height: 100vh; */
     opacity: 0;
     transition: opacity 1s ease-in;
     display: flex;
