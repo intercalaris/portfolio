@@ -423,6 +423,8 @@ footer .email, footer .phone {
     .content-section {
         flex-direction: row;
         width: 100%;
+        height: auto;
+        /* min-height: 0; */
         align-items: start;
         text-align: left;
 
