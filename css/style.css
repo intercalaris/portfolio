@@ -443,7 +443,7 @@ footer .email, footer .phone {
         flex-direction: row;
         overflow-x: auto;
         /* width: 100vh; */
-        height: 60%;
+        height: 70%;
     }
     /* .projects-list a {
         height: 10%;
