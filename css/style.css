@@ -270,7 +270,7 @@ body {
 .section-title {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     min-width: 13rem;
     width: 100%;
     color: #ffffffc6;
