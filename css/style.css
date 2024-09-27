@@ -260,7 +260,7 @@ body {
 .content-section, footer {
     z-index: 2;
 }
-.content-section:hover, footer:hover {
+.content-section:hover, .content-section:focus, footer:hover, footer:focus {
     z-index: 7;
 }
 .section-title {
