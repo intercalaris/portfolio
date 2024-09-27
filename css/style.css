@@ -22,7 +22,7 @@
 /*******************************************/
 html {
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 body {
     font-family: "Micro 5", Arial, sans-serif;
@@ -30,12 +30,12 @@ body {
     /* min-height: 100vh; */
     font-size: 4rem;
     background: black;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 #landing-page {
     position: relative;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* SKY */
