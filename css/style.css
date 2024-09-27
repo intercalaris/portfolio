@@ -215,7 +215,6 @@ body {
     color: white;
     background: black;
     overflow-x: hidden;
-    overflow-y:scroll;
     opacity: 0;
     transition: opacity 1s ease-in;
 }
@@ -501,5 +500,9 @@ footer h2 {
     }
     #socials {
         max-width: 100%;
+    }
+    /* overflow */
+    html, body {
+        overflow-y: scroll;
     }
 }
