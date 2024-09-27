@@ -501,12 +501,4 @@ footer h2 {
     #socials {
         max-width: 100%;
     }
-    /* overflow */
-    html, body {
-        overflow-y: scroll;
-    }
-    #landing-page {
-        overflow-y: hidden;
-    }
-    
 }
