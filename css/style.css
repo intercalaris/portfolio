@@ -484,7 +484,7 @@ footer h2 {
     footer {
         text-align: right;
         height: 3rem;
-        margin-top: max(15px, 1dvh);;
+        margin-top: max(15px, 1dvh);
     }
     .email, #calendly {
         font-size: 1rem;
