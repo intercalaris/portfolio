@@ -446,6 +446,11 @@ footer h2 {
     .me {
         display: none;
     }
+    /* about */
+    .about-text-img-flexbox {
+        display: flex;
+    
+    }
     #about p {
         padding: 0;
         margin-right: -5px;
