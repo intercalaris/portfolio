@@ -294,20 +294,17 @@ body {
     text-shadow: 0;
 }
 .me {
-    margin-top: -65px;
+    /* margin-top: -65px; */
 }
-.me, .me-h2 {
+.me, .me2 {
     width: 12rem;
     border-radius: 90%;
     align-self: center;
     opacity: 70%;
 }
-.me-h2 {
+.me2 {
     display: none;
     width: 8rem;
-}
-.me-h2-wrapper {
-    padding-top: 60px;
 }
 
 
@@ -440,7 +437,7 @@ footer h2 {
         align-items: start;
         text-align: left;
     }
-    .me-h2 {
+    .me2 {
         display: block;
         margin: -15px auto 0 auto;
         position: relative;
