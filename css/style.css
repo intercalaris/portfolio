@@ -35,7 +35,6 @@ body {
 #landing-page {
     position: relative;
     height: 100vh;
-    /* overflow: hidden; */
 }
 
 /* SKY */
@@ -216,6 +215,7 @@ body {
     color: white;
     background: black;
     overflow-x: hidden;
+    overflow-y:scroll;
     opacity: 0;
     transition: opacity 1s ease-in;
 }
