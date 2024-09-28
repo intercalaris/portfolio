@@ -501,4 +501,7 @@ footer h2 {
     #socials {
         max-width: 100%;
     }
+    .parpadeo-front {
+        opacity: 0;
+    }
 }
