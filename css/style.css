@@ -385,7 +385,8 @@ footer h2 {
 }
 .email, #calendly {
     font-size: 2rem;
-    text-decoration: none;
+    text-decoration: none !important; 
+    border-bottom: none;
 }
 /* MEDIA QUERIES */
 @media screen and (max-width: 800px) {
