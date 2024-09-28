@@ -319,7 +319,7 @@ body {
   ::-webkit-scrollbar-thumb {
     background-color: #dbdbdbc7;
     border-radius: 20px;
-    border: 4px solid transparent;
+    border: 5px solid transparent;
     background-clip: content-box;
   }
   ::-webkit-scrollbar-thumb:hover {
