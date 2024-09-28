@@ -465,6 +465,7 @@ footer h2 {
         align-items: center;
         overflow-x: auto;
         width: 95vw;
+        margin-top: 5px;
         height: 100%;
         mask: linear-gradient(90deg,#000 10% 80%,#0000);
         gap: 15px;
@@ -480,7 +481,6 @@ footer h2 {
     .section-title {
         font-size: 2.5rem;
     }
-   
     footer {
         text-align: right;
         height: 3rem;
@@ -501,6 +501,7 @@ footer h2 {
     }
     #socials {
         max-width: 100%;
+        margin-top: -5px;
     }
     .parpadeo-front {
         opacity: 0;
