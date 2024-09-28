@@ -425,7 +425,7 @@ footer h2 {
     .main-content {
         flex-direction: column;
         /* gap: 15px; */
-        gap: max(15px, 1dvh);
+        gap: max(10px, 1dvh);
     }
 
     .contact-options {
