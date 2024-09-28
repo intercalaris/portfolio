@@ -267,11 +267,11 @@ body {
     flex-direction: column;
     min-width: 13rem;
     width: 100%;
-    color: #ffffffc6;
+    color: #efefefd7;
     text-shadow: 0 0 20px rgba(210, 221, 249, 0.5), 0 0 15px rgba(213, 229, 252, 0.35);   
 }
 .section-title:hover {
-    color: #ffffffd6;
+    color: #ffffffd7;
     text-shadow: 0 0 20px rgba(210, 221, 249, 0.4), 0 0 15px rgba(213, 229, 252, 0.45);    
 }
 
@@ -384,7 +384,7 @@ footer h2 {
     gap: 4%
 }
 .email, #calendly {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-decoration: none;
 }
 /* MEDIA QUERIES */
@@ -456,7 +456,7 @@ footer h2 {
         font-size:calc(0.5rem + 1.3vw);
         position: relative;
         z-index: 1;
-        color: #ffffffd3;
+        /* color: #ffffffd3; */
     }
     /* projects */
     .projects-list {
@@ -486,7 +486,7 @@ footer h2 {
         margin-top: max(15px, 1dvh);
     }
     .email, #calendly {
-        font-size: 1rem;
+        font-size: 6.6vw;
     }
     /* #socials-title {
        
