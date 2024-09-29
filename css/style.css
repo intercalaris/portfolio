@@ -529,7 +529,7 @@ body {
     .projects-list-project {
         height: 100%;
         width: auto;
-        aspect-ratio: 1/2;
+        aspect-ratio: 2/3;
    
     }
     .projects-list-project a {
