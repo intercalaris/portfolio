@@ -518,20 +518,28 @@ body {
         overflow-x: auto;
         width: 95vw;
         margin-top: 5px;
-        height: 50%;
+        height: 100%;
         gap: 15px;
         justify-content: start;
         mask: linear-gradient(90deg,#000 10% 80%,#0000); 
     }
     .projects-list-project {
         height: 100%;
+        width: auto;
+        aspect-ratio: 1/2;
+   
+    }
+    .projects-list-project a {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
     }
     .projects-list-project .section-text  {
         font-size: 1rem;
     }
     .projects-list-project img {
-        height: 50%;
-        /* aspect-ratio: 2/3; */
+        height: 90%;
+        width: 100%;
     }
 
     #socials img {
