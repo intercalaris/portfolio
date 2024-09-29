@@ -544,7 +544,7 @@ body {
         flex-direction: column;
     }
     .projects-list-project .section-text  {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .projects-list-project img {
         height: 90%;
