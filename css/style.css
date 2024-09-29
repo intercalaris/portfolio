@@ -485,8 +485,8 @@ body {
         width: 100%;
         flex-grow: 1; /* Allow growing */
         flex-shrink: 1; /* Allow shrinking */
-        overflow-y: auto; /* Enable scrolling within projects if content overflows */
-       
+        /* overflow-y: auto; Enable scrolling within projects if content overflows */
+        overflow-x: hidden;
     }
     #socials-contact-wrapper {
         height: 20%;
