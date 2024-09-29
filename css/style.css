@@ -402,6 +402,9 @@ body {
     aspect-ratio: 5 / 3;
     border-radius: 5%;
 }
+.blank-project img {
+    aspect-ratio: 5 / 1;
+}
 .projects-list-project .section-text {
     font-size: 1.2rem;
     text-align: center;
@@ -529,8 +532,11 @@ body {
     .projects-list-project {
         height: 100%;
         width: auto;
-        aspect-ratio: 2/3;
+        aspect-ratio: 2 / 3;
    
+    }
+    .blank-project {
+        aspect-ratio: 1 / 14;
     }
     .projects-list-project a {
         height: 100%;
