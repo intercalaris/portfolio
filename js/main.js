@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const portfolio = document.getElementById('portfolio');
     const portfolioBackground = portfolio.querySelector('.portfolio-background');
     const portfolioContent = portfolio.querySelector('.content');
+    const portfolioClouds = portfolio.querySelector('.clouds.portfolio');
 
     enterButton.addEventListener('click', () => {
         landingPage.style.animation = 'fadeOut 1s forwards';
@@ -17,6 +18,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 setTimeout(() => {
                     portfolioBackground.style.opacity = '1';
+                }, 400);
+                
+                setTimeout(() => {
+                    portfolioClouds.style.opacity = '1';
                 }, 400);
                 
                 setTimeout(() => {

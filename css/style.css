@@ -109,7 +109,9 @@ body {
 }
 .clouds.portfolio {
     z-index: -0;
+    opacity: 0;
     background: transparent url("../media/storm-clouds-transparent3.png") repeat;
+    transition: opacity 2s ease-in;
 
 }
 .cloud-overlay {
