@@ -458,8 +458,8 @@ body {
         pointer-events: none;
     }
     .clouds {
-        background-size: 1150px;
-        animation: move-background 80s linear infinite;
+        background-size: 900px;
+        animation: move-background 50s linear infinite;
     }
     .parpadeo-front {
         opacity: 0;
