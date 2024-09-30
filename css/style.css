@@ -463,7 +463,7 @@ body {
         pointer-events: none;
     }
     .clouds {
-        background-size: 900px;
+        background-size: 905px;
         animation: move-background 50s linear infinite;
     }
     .parpadeo-front {
