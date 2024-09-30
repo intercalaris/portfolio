@@ -576,10 +576,10 @@ body {
     }
     .content-section {
         color: #efefefeb;
-        text-shadow: 0 0 5px rgba(210, 221, 249, 0.5), 0 0 3px rgba(213, 229, 252, 0.35);   
+        text-shadow: 0 0 5px rgba(210, 221, 249, 0.3), 0 0 3px rgba(213, 229, 252, 0.25);   
     }
     .content-section:hover {
         color: #ffffffd7;
-        text-shadow: 0 0 5px rgba(210, 221, 249, 0.4), 0 0 3px rgba(213, 229, 252, 0.45);    
+        text-shadow: 0 0 5px rgba(210, 221, 249, 0.3), 0 0 3px rgba(213, 229, 252, 0.35);    
     }
 }
