@@ -107,7 +107,11 @@ body {
     z-index: 5;
     animation: move-background 100s linear infinite;
 }
+.clouds.portfolio {
+    z-index: -0;
+    background: transparent url("../media/storm-clouds-transparent3.png") repeat;
 
+}
 .cloud-overlay {
     position: absolute;
     top: 0;
@@ -404,6 +408,7 @@ body {
 }
 .blank-project img {
     aspect-ratio: 5 / 1;
+    visibility: hidden;
 }
 .projects-list-project .section-text {
     font-size: 1.5vw;
@@ -486,9 +491,11 @@ body {
         flex-grow: 1; /* Allow growing */
         flex-shrink: 1; /* Allow shrinking */
         overflow-x: hidden;
+        
     }
     .projects-list {
         padding-bottom: 8px;
+
     }
     #socials-contact-wrapper {
         height: 20%;
@@ -566,5 +573,13 @@ body {
     }
     #socials-contact-wrapper {
         align-items: end;
+    }
+    .content-section {
+        color: #efefefeb;
+        text-shadow: 0 0 5px rgba(210, 221, 249, 0.5), 0 0 3px rgba(213, 229, 252, 0.35);   
+    }
+    .content-section:hover {
+        color: #ffffffd7;
+        text-shadow: 0 0 5px rgba(210, 221, 249, 0.4), 0 0 3px rgba(213, 229, 252, 0.45);    
     }
 }
