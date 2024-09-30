@@ -185,6 +185,9 @@ body {
     animation: fadeIn 2s ease-out forwards 1s; 
     z-index: 2; 
 }
+#enter-button span {
+    padding-left: 5px;
+}
 
 #enter-button:hover {
     opacity: 0.8;
