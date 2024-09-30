@@ -501,7 +501,7 @@ body {
     #about p {
         padding: 0;
         margin-right: -15px;
-        font-size: calc(.6rem + 1.8vw);
+        font-size: calc(1dvh + 2.2vw);
         position: relative;
         z-index: 1;
     }
