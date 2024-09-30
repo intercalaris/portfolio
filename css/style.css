@@ -406,7 +406,7 @@ body {
     aspect-ratio: 5 / 1;
 }
 .projects-list-project .section-text {
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     text-align: center;
     text-indent: 0;
 }
@@ -546,7 +546,7 @@ body {
         flex-direction: column;
     }
     .projects-list-project .section-text  {
-        font-size: 0.8rem;
+        font-size: calc(1.8dvh);
     }
     .projects-list-project img {
         height: 90%;
