@@ -339,7 +339,7 @@ body {
 }
 
 .section-text {
-    font-size: calc(0.82rem + 0.8vw);
+    font-size: calc(0.82rem + 0.6vw);
     font-weight: 300;
     font-family: "Pixelify Sans", "Micro 5", Arial, sans-serif;
     font-weight: 300;
