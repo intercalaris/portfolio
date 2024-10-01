@@ -432,7 +432,7 @@ body {
     font-size: 2rem;
     text-decoration: none !important; 
     border-bottom: none;
-    text-shadow: 0 0 20px rgba(210, 221, 249, 0.2), 0 0 15px rgba(213, 229, 252, 0.25);    
+    text-shadow: 0 0 10px rgba(210, 221, 249, 0.2), 0 0 5px rgba(213, 229, 252, 0.25);    
 
 }
 
