@@ -542,7 +542,7 @@ body {
         height: 100%;
         gap: 15px;
         justify-content: start;
-        mask: linear-gradient(90deg,#000 10% 80%,#0000); 
+        mask: linear-gradient(90deg,#000 10% 70%,#0000); 
     }
     .projects-list-project {
         height: 100%;
