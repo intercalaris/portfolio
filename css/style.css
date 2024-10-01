@@ -355,7 +355,7 @@ body {
 .me, .me2 {
     width: calc(5rem + 8.5vw);
     margin-top: -0.3vw;
-    border-radius: 90%;
+    border-radius: 25%;
     align-self: center;
     opacity: 70%;
 }
