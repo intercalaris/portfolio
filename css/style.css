@@ -392,7 +392,7 @@ body {
     height: 100%;
     gap: 12px;
     overflow-y: auto;
-    mask: linear-gradient(180deg,#000 10% 70%,#0000);
+    mask: linear-gradient(180deg,#000000dc 10% 70%,#0000);
 }
 .projects-list a, #calendly, .projects-list a:hover, #calendly:hover, .projects-list a:focus, #calendly:focus, .projects-list a:active, #calendly:active {
     text-decoration: none;
@@ -544,7 +544,7 @@ body {
         height: 100%;
         gap: 15px;
         justify-content: start;
-        mask: linear-gradient(90deg,#000 10% 75%,#0000); 
+        mask: linear-gradient(90deg,#000000dc 10% 75%,#0000); 
     }
     .projects-list-project {
         height: 100%;
