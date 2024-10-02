@@ -31,3 +31,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 900);
     });
 });
+
+document.getElementById("year").textContent = new Date().getFullYear();
