@@ -1,9 +1,8 @@
-/* Box Model Hack */
+
 * {
   box-sizing: border-box;
 }
 
-/* Clear fix hack */
 .clearfix:after {
      content: ".";
      display: block;
@@ -505,8 +504,8 @@ footer {
     }
     #projects {
         width: 100%;
-        flex-grow: 1; /* Allow growing */
-        flex-shrink: 1; /* Allow shrinking */
+        flex-grow: 1;
+        flex-shrink: 1;
         overflow-x: hidden;
         
     }
