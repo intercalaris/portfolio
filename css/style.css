@@ -478,7 +478,7 @@ footer {
         );
     } */
     .clouds {
-        background-size: 800px;
+        background-size: 950px;
         animation: move-background 50s linear infinite;
     }
     .parpadeo-front {
