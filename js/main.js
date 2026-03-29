@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const enterButton = document.getElementById('enter-button');
     const landingPage = document.getElementById('landing-page');
     const portfolio = document.getElementById('portfolio');
-    const portfolioBackground = portfolio.querySelector('.portfolio-background');
     const portfolioContent = portfolio.querySelector('.content');
     const portfolioClouds = portfolio.querySelector('.clouds.portfolio');
 
@@ -15,11 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             requestAnimationFrame(() => {
                 portfolio.style.opacity = '1';
-                
-                setTimeout(() => {
-                    portfolioBackground.style.opacity = '1';
-                }, 400);
-                
+
                 setTimeout(() => {
                     portfolioClouds.style.opacity = '1';
                 }, 400);

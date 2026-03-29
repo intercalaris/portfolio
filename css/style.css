@@ -3,19 +3,6 @@
   box-sizing: border-box;
 }
 
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-	clear: both;
-}
-
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -67,11 +54,6 @@ body {
     background-size: 1000px 1000px;
     pointer-events: none;
 }
-/* .parpadeo-back.portfolio {
-    animation:move-background 10s linear infinite;
-    background-size: 800px 800px;
-    pointer-events: none;
-} */
 .parpadeo-front{
     background: transparent url("../media/parpadeo-transparenter.png") repeat;
     z-index: 3;
@@ -303,19 +285,6 @@ body {
     opacity: 0;
     transition: opacity 1s ease-in;
 }
-
-/* .portfolio-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(../media/stars.png) repeat;
-    background-size: 100%;
-    opacity: 0;
-    transition: opacity 2s ease-in;
-    pointer-events: none;
-} */
 
 .content {
     position: relative;
